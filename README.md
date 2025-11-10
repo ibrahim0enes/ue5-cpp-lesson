@@ -1,49 +1,59 @@
-# ue5-cpp-lesson
+# 🎮 Unreal Engine 5 - C++ Öğrenim Deposu
 
-Unreal Engine 5 ile C++ programlama öğrenimini takip etmek ve projeleri organize etmek için hazırlanmış bir repo.
+Bu repository, Unreal Engine 5 ile C++ programlama öğrenim sürecimi ve kurs çalışmalarımı içermektedir.
 
-## Amaç
+## 📚 İçerik
 
-Bu depoda Unreal Engine 5 (UE5) ile C++ geliştirme sürecini adım adım takip edeceksin. 
-- Kendi notlarını kaydedebilir,
-- Kod örnekleri paylaşabilir,
-- UE5 projelerini versiyonlayarak gelişimini görebilirsin.
+Bu depoda şunları bulabilirsiniz:
+- Kurs boyunca geliştirdiğim projeler
+- C++ temel kavramları ve UE5'e özgü uygulamaları
+- Blueprint'ten C++ geçiş notları
+- Kod örnekleri ve açıklamaları
+- Karşılaştığım problemler ve çözümleri
 
-## İçerik
+## 🎯 Hedefler
 
-- **/projects/**  
-  UE5 projelerin burada yer alacak.
+- **C++ Temelleri**: Pointers, references, classes, inheritance
+- **UE5 C++ Framework**: Actor, Component, GameMode yapıları
+- **Gameplay Programlama**: Character movement, combat systems, AI behavior
+- **Blueprint & C++ Entegrasyonu**: Her iki sistemin birlikte kullanımı
 
-- **/notes/**  
-  Öğrenilen konular, önemli notlar ve referans dökümanlar.
+## 🛠️ Kullanılan Teknolojiler
 
-- **/examples/**  
-  Denediğin veya öğrendiğin C++ kod örnekleri.
+- **Unreal Engine**: 5.x
+- **IDE**: Visual Studio / Rider
+- **Versiyon Kontrol**: Git & GitHub
+- **Programlama Dili**: C++
 
-- **README.md**  
-  Genel bilgi, hedefler ve rehber.
+## 📂 Proje Yapısı
+```
+/
+├── Source/          # C++ kaynak kodları
+├── Content/         # Blueprint ve asset'ler
+├── Docs/            # Notlar ve dökümanlar
+└── README.md        # Bu dosya
+```
 
-## Başlangıç için Adımlar
+## 🚀 Nasıl Kullanılır
 
-1. Unreal Engine 5’i indir ve kur.
-2. Bu repoyu local bilgisayarına clone’la.
-3. /projects dizinine temel bir C++ UE5 projesi oluştur.
-4. Öğrendiklerini /notes dizinine haftalık olarak ekle.
-5. Kendi C++ deneme kodlarını /examples dizininde tut.
-6. Gelişim adımlarını Commit mesajlarında ve Issues ile belgele.
+1. Repository'yi klonlayın
+2. `.uproject` dosyasını Unreal Engine ile açın
+3. Visual Studio solution'ı generate edin (sağ tık > Generate Visual Studio project files)
+4. Projeyi Visual Studio'da açıp derleyin
 
-## Önerilen Kaynaklar
+## 📝 Notlar
 
-- [Unreal Engine Documentation](https://docs.unrealengine.com/5.0/en-US/)
-- [Unreal Engine C++ Tutorials](https://www.youtube.com/results?search_query=unreal+engine+c%2B%2B+tutorial)
-- [Epic Developer Community](https://dev.epicgames.com/community/learning)
+Bu repo aktif olarak güncellenmektedir. Yeni öğrendikçe eklemeler yapılacaktır.
 
-## Katkı ve Takip
+## 🔗 Bağlantılar
 
-Kendi çalışmalarını commit’le ve push’la.  
-Her adımı ilerledikçe Issue açabilir ve kapayabilirsin.  
-Soruların veya ek önerilerin için Issues kısmını kullanabilirsin.
+- [Unreal Engine Dokumentasyonu](https://docs.unrealengine.com/)
+- [UE5 C++ API Reference](https://docs.unrealengine.com/5.0/en-US/API/)
+
+## 📫 İletişim
+
+Sorularınız veya önerileriniz için benimle iletişime geçebilirsiniz.
 
 ---
 
-Başarılar ve iyi çalışmalar! 🚀  
+**Not**: Bu repository eğitim amaçlıdır ve kişisel gelişim sürecimi yansıtmaktadır.
