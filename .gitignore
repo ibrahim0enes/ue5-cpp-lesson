@@ -1,0 +1,26 @@
+# UE5 typical .gitignore
+# UE and Visual Studio build files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sdf
+*.suo
+*.opensdf
+*.VC.opendb
+*.VC.db
+*.log
+*.obj
+*.pdb
+*.exe
+*.dll
+# Ignore Mac files
+.DS_Store
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+# Ignore Rider IDE
+.idea/
+# Ignore default
+Thumbs.db
